@@ -17,6 +17,6 @@ ENV COMPOSER_ALLOW_SUPERUSER=1
 
 RUN composer install
 
-EXPOSE 80
+EXPOSE 9001
 
 CMD ["php", "-S", "0.0.0.0:80", "-t", "public", "php-fpm"]
