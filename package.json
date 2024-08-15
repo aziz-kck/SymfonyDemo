@@ -1,0 +1,10 @@
+{
+  "name": "symfony-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node-sass --output var/sass app.scss app.output.css"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
